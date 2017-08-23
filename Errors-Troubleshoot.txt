@@ -1,5 +1,0 @@
-
-Notify send error from Gulp:
-Install this:
-sudo apt-get update
-sudo apt-get install libnotify-bin
