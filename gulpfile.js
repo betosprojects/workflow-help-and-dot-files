@@ -11,8 +11,7 @@ var gulp = require('gulp'),
   sass = require('gulp-sass'),
   sourcemaps = require('gulp-sourcemaps'),
   uncss = require('gulp-uncss'),
-  uglify = require('gulp-uglify'),
-  webp = require('gulp-webp'); //Optional
+  uglify = require('gulp-uglify');
 
 
 //Simple Gulpfile for now, not perfect or near good but it works for me! ;)
@@ -66,7 +65,7 @@ gulp.task('sass', function() {
             cascade: false
           }))
         .pipe(uncss({
-            html: ['./src/**/*.html',]
+            html: ['./src/**/*.html']
         }))
         .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest('./src/css/'))

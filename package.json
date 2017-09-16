@@ -1,40 +1,37 @@
 {
-  "name": "theegulper",
+  "name": "gulptasking",
   "version": "1.0.0",
-  "description": "A gulpfile workflow.",
-  "main": "gulpfile.js",
+  "description": "Gulp tasks workflow.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "betosgraphics"
+    "url": "betosprojects"
   },
   "keywords": [
-    "gulp",
-    "test",
-    "web",
-    "tasks"
+    "workflow",
+    "webdev"
   ],
-  "author": "Beto G.",
-  "license": "MIT",
+  "author": "Beto Galvez",
+  "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.18.12",
-    "del": "^2.2.2",
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^3.0.0",
-    "gulp-imagemin": "^3.2.0",
+    "gulp-imagemin": "^3.3.0",
     "gulp-notify": "^3.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.0",
-    "gulp-typescript": "^3.1.7",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^3.2.2",
     "gulp-uglify": "^3.0.0",
     "gulp-uncss": "^1.0.6",
-    "gulp-webp": "^2.3.0",
-    "typescript": "next"
+    "typescript": "^2.6.0-dev.20170907"
   },
   "dependencies": {}
 }
