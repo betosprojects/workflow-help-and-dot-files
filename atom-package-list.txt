@@ -20,7 +20,7 @@ platformio-ide-terminal
 !!!!!!!!!!!!!!!!!!DELETE THIS AND AND ALL THE LINES UNDER HERE BEFORE INSTALLING!!!!!!!!!!!!!!!!!!!!!!!!!
 // Remember to delete what you don't really need. Atom IDE is new to me, might not need the linters or give you warnings.
 
-Run this on the terminal:
+CD to this file and run/paste this on the terminal:
 apm install --packages-file atom-package-list.txt
 
 Or if you have Atom Beta:
