@@ -1,8 +1,9 @@
 atom-beautify
 atom-ide-ui
-ide-typescript
+chrome-color-picker
 emmet
 file-icons
+ide-typescript
 linter-ui-default
 linter
 linter-csslint
@@ -16,6 +17,7 @@ opened-files
 open-in-browser
 pigments
 platformio-ide-terminal
+todo-show
 
 !!!!!!!!!!!!!!!!!!DELETE THIS AND AND ALL THE LINES UNDER HERE BEFORE INSTALLING!!!!!!!!!!!!!!!!!!!!!!!!!
 // Remember to delete what you don't really need. Atom IDE is new to me, might not need the linters or give you warnings.
