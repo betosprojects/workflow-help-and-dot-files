@@ -1,6 +1,7 @@
 atom-beautify
 atom-ide-ui
-chrome-color-picker
+color-picker
+editorconfig
 emmet
 file-icons
 ide-typescript
