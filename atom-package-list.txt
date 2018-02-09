@@ -1,16 +1,14 @@
-atom-beautify
 atom-ide-ui
 color-picker
 editorconfig
 emmet
 file-icons
 ide-typescript
+ide-json
+ide-css
 linter-ui-default
-linter
-linter-csslint
-linter-jshint
 linter-htmlhint
-linter-tslint
+linter-eslint
 linter-sass-lint
 minimap
 minimap-highlight-selected
@@ -18,10 +16,11 @@ opened-files
 open-in-browser
 pigments
 platformio-ide-terminal
+prettier-atom
 todo-show
 
 !!!!!!!!!!!!!!!!!!DELETE THIS AND AND ALL THE LINES UNDER HERE BEFORE INSTALLING!!!!!!!!!!!!!!!!!!!!!!!!!
-// Remember to delete what you don't really need. Atom IDE is new to me, might not need the linters or give you warnings.
+// Remember to delete what you don't really need. Atom IDE is new to me, some linters may give you warnings to disable the other.
 
 CD to this file and run/paste this on the terminal:
 apm install --packages-file atom-package-list.txt

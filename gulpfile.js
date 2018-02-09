@@ -1,4 +1,4 @@
-var gulp = require('gulp'),
+const gulp = require('gulp'),
   autoprefixer = require('gulp-autoprefixer'),
   browserSync = require('browser-sync').create(),
   concat = require('gulp-concat'),
@@ -14,24 +14,11 @@ var gulp = require('gulp'),
   uglify = require('gulp-uglify');
 
 
-//Simple Gulpfile for now, not perfect or near good but it works for me! ;)
-
-// -------- Basic Usage ------------
-// IMPORTANT: Run build first then gulp. To start over run gulp clean then gulp build, and run gulp again.
-
-//  * gulp build - Builds the project for deployment and spits the assets inside the "dist" folder.
-
-//  * gulp - Compiles JS/TS, SCSS. Minifies images, copy HTML files, concats JS and starts Browser-Sync server.
+//  WARNING: This is my old gulpfile.js I need to use or update PostCss.
 
 //  * gulp clean - WARNING: Deletes the "dist" folder and JS files. I set up Gulp to
 // delete the regular JS files while I'm testing, keeping the TypeScript files only.
 // TypeScript compiles to regular vanilla JS anyway but, the plugin is optional.
-
-// -------- Top Level Functions ------------
-//  * gulp.task - Define Tasks.
-//  * gulp.src - The directory to grab files from.
-//  * gulp.dest - Where you want the files to move or spit too.
-//  * gulp.watch- Watch files and folders for changes.
 
 
 // Default Watch ------------------------
