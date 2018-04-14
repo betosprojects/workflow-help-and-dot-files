@@ -28,3 +28,69 @@ apm install --packages-file atom-package-list.txt
 Or if you have Atom Beta:
 apm-beta install --packages-file atom-package-list.txt
 
+_______________________________________ VSC _________________________________________
+Visual Studio Code Extensions:
+
+Get the "Live Sass Compiler" extension for vsc. Compile Sass with built in live server
+and add this to the Workspace Settings:
+
+"liveSassCompile.settings.formats":[
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/src/css/"
+        },
+        {
+            "extensionName": ".min.css",
+            "format": "compressed",
+            "savePath": "/dist/css"
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+       "**/node_modules/**",
+       ".vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
+    ]
+} 
+
+
+Auto renanme tag -
+IntellSense for CSS class name in HTML -
+Markdown Shortcuts -
+One Dark Pro -
+open in browser -
+vscode-icons
+Prettier?
+
+User Settings (User-Name/.config/Code/User/settings.json):
+
+{
+    "files.autoSave": "onWindowChange",
+    "editor.fontSize": 17,
+    "editor.tabSize": 2,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.fontLigatures": true,
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.directory": true,
+        "**/.vscode": true,
+        "**/node_modules": true
+    },
+    "editor.fontFamily": "'Fira Code', 'Roboto', monospace, 'Droid Sans Fallback'"
+}
